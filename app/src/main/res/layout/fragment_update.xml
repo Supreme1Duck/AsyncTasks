@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".fragments.Add.AddFragment">
+
+    <EditText
+        android:layout_marginTop="180dp"
+        android:id="@+id/update_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/update_Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:layout_marginTop="200dp"
+        android:id="@+id/button_Update"
+        android:layout_width="match_parent"
+        android:text="@string/update"
+        android:background="@drawable/button_oval"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

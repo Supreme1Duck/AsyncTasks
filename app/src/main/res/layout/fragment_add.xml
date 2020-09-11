@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".fragments.Add.AddFragment">
+
+    <EditText
+        android:layout_marginTop="180dp"
+    android:id="@+id/editName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/name"
+    android:gravity="center_horizontal"
+    android:textSize="20sp"
+    android:inputType="textPersonName"
+    />
+
+    <EditText
+        android:id="@+id/editContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/RadiobuttonPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/RadiobuttonEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_marginTop="120dp"
+        android:id="@+id/button_Add"
+        android:layout_width="match_parent"
+        android:text="@string/add"
+        android:background="@drawable/button_oval"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
